@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-Fall-teaching-1
 venue: "University 1, Department"
-date: 2025 Fall
+date: 2025,Fall
 ---
 
 The "Digital Lab Pro" is an advanced-level class of the course, designed for students interested in digital circuit design, system architecture design, and related areas. It has been successfully offered for six years.
