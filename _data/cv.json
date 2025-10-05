@@ -2,25 +2,67 @@
   "basics": {
     "name": "Zixuan Li",
     "email": "lizixuan@mail.ustc.edu.cn",
-    "website": "https://Lizixuan05.github.io"
+    "website": "https://Lizixuan05.github.io",
+    "label": "Undergraduate Student",
+    "summary": "Third-year undergraduate student majoring in Computer Science and Technology at USTC. Research interests include AI computing systems, deep learning processors, and hardware–software co-design. Solid foundation in computer science, mathematics, and physics. Passionate about scientific research and aiming to contribute to the design of high-performance processors for AI applications."
   },
   "work": [],
   "education": [
     {
       "institution": "University of Science and Technology of China",
-      "area": "B.S. in Computer Science and Technology",
-      "studyType": "Undergraduate",
+      "area": "Computer Science and Technology",
+      "studyType": "B.S.",
       "startDate": "2023",
       "endDate": "",
-      "gpa": 3.96,
+      "gpa": "3.96",
       "courses": []
     }
   ],
-  "": [
-
+  "skills": [
+    {
+      "name": "Core Competencies",
+      "keywords": [
+        "Hands-on programming skills",
+        "Strong foundation in mathematics and physics",
+        "Patience and persistence in problem-solving",
+        "Rigorous and logical thinking"
+      ]
+    }
   ],
-  "languages": [],
-  "interests": [],
+  "awards": [
+    {
+      "title": "National Scholarship (国家奖学金)",
+      "date": "2024",
+      "awarder": "Ministry of Education of China",
+      "summary": "Awarded for outstanding academic performance and research potential."
+    },
+    {
+      "title": "First Prize (Team Leader)",
+      "date": "2024",
+      "awarder": "National Collegiate System Capability Competition (Loongson Cup)",
+      "summary": "Led the team to win the First Prize in the CPU Design Competition."
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": [
+        "AI Computing Systems",
+        "Deep Learning Processors",
+        "Hardware-Software Co-Design"
+      ]
+    }
+  ],
   "portfolio": [
     {
       "name": "Portfolio item number 1",
