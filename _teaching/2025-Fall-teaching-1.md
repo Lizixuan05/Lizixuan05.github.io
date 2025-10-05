@@ -1,9 +1,8 @@
 ---
 title: "Digital Lab Pro"
-collection: teaching
+collection: TA
 type: "Undergraduate course"
 permalink: /teaching/2025-Fall-teaching-1
-venue: "University 1, Department"
 date: 2025,Fall
 ---
 
