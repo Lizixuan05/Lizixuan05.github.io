@@ -13,9 +13,32 @@
       width: 70%;
     }
   }
+  
+  .pdf-embed {
+    width: 100%;
+    height: 800px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  
+  .pdf-embed iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
 </style>
 
 <div class="cv-container">
+  <!-- PDF Embed -->
+  {% if cv.embed %}
+  <div class="pdf-embed">
+    <iframe src="{{ cv.embed.src }}" type="{{ cv.embed.type }}" width="{{ cv.embed.width }}" height="{{ cv.embed.height }}">
+      <p>Your browser does not support PDFs. <a href="{{ cv.embed.src }}">Download the PDF</a>.</p>
+    </iframe>
+  </div>
+  {% endif %}
+  
   <!-- Basic Information -->
   <div class="cv-section cv-header">
     <h1>{{ cv.basics.name }}</h1>
