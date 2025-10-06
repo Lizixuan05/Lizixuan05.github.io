@@ -1,75 +1,98 @@
 {
   "basics": {
-    "name": "Zixuan Li",
+    "name": "李梓煊 (Zixuan Li)",
+    "birth": "2005-04",
+    "university": "中国科学技术大学",
+    "major": "计算机科学与技术",
     "email": "lizixuan@mail.ustc.edu.cn",
-    "website": "https://Lizixuan05.github.io",
-    "label": "Undergraduate Student",
-    "summary": "Third-year undergraduate student majoring in Computer Science and Technology at USTC. Research interests include AI computing systems, deep learning processors, and hardware–software co-design. Solid foundation in computer science, mathematics, and physics. Passionate about scientific research and aiming to contribute to the design of high-performance processors for AI applications."
+    "phone": "13863650616",
+    "summary": "耐心、负责，有恒心、有毅力；富有科研热情、能够刻苦钻研；严谨认真，逻辑严密。"
   },
-  "work": [],
   "education": [
     {
-      "institution": "University of Science and Technology of China",
-      "area": "Computer Science and Technology",
-      "studyType": "B.S.",
-      "startDate": "2023",
+      "institution": "中国科学技术大学",
+      "area": "计算机科学与技术",
+      "studyType": "本科",
+      "startDate": "2023-09",
       "endDate": "",
-      "gpa": "3.96",
-      "courses": []
+      "gpa": "3.96 (排名 8/193)",
+      "courses": [
+        "计算机组成原理(95)",
+        "数据结构(97)",
+        "计算机系统概论(96)",
+        "计算机程序设计(96)"
+      ],
+      "mathPhysics": [
+        "数学课程全部优秀",
+        "物理课程全部满绩"
+      ]
     }
   ],
-  "skills": [
+  "research": [
     {
-      "name": "Core Competencies",
-      "keywords": [
-        "Hands-on programming skills",
-        "Strong foundation in mathematics and physics",
-        "Patience and persistence in problem-solving",
-        "Rigorous and logical thinking"
+      "startDate": "2025-05",
+      "endDate": "至今",
+      "institution": "中科大高能效智能计算实验室",
+      "supervisor": "王超教授课题组",
+      "mentor": "宫磊副教授",
+      "topics": [
+        "智能计算系统",
+        "深度学习处理器",
+        "软硬件协同设计"
       ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "龙芯杯项目作品 超标量处理器设计",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "description": "开发基于 LA32R 指令集的 CMR 处理器，采用 Tomasulo 旁路算法，支持 11−13 级流水、多发射、乱序执行、顺序提交，支持精确异常处理和虚拟地址转换。通过 U-Boot 启动 Linux，并成功移植 Python。"
+    },
+    {
+      "name": "FPGA 基础应用 卷积加速器",
+      "startDate": "2025-05",
+      "endDate": "2025-06",
+      "description": "完成卷积加速器实现，采用 UNROLL 展开、PIPELINE 优化、循环重排、double buffer、脉动阵列等优化技术。"
+    },
+    {
+      "name": "人工智能创新应用 时间管理 AI Agent",
+      "startDate": "2025-04",
+      "endDate": "2025-05",
+      "description": "利用百度千帆大语言模型和自研组件，设计智能体核心架构，支持自然语言交互式日程安排，个性化定制计划，并提供多维度可视化报告。"
     }
   ],
   "awards": [
     {
-      "title": "National Scholarship (国家奖学金)",
-      "date": "2024",
-      "awarder": "Ministry of Education of China",
-      "summary": "Awarded for outstanding academic performance and research potential."
+      "title": "国家奖学金",
+      "date": "2025",
+      "awarder": "教育部",
+      "summary": "以优异的学业成绩和科研潜力获奖。"
     },
     {
-      "title": "First Prize (Team Leader)",
-      "date": "2024",
-      "awarder": "National Collegiate System Capability Competition (Loongson Cup)",
-      "summary": "Led the team to win the First Prize in the CPU Design Competition."
+      "title": "全国大学生系统能力大赛 CPU 设计赛(龙芯杯)团体赛一等奖",
+      "date": "2025",
+      "awarder": "龙芯杯",
+      "summary": "作为队长带领团队荣获一等奖。"
     }
   ],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "Proficient"
-    }
-  ],
+  "skills": {
+    "programming": [
+      "C",
+      "C++",
+      "Python",
+      "Verilog",
+      "SpinalHDL",
+      "HLS"
+    ],
+    "tools": [
+      "Linux 开发环境",
+      "现代开发工具"
+    ]
+  },
   "interests": [
-    {
-      "name": "Research Interests",
-      "keywords": [
-        "AI Computing Systems",
-        "Deep Learning Processors",
-        "Hardware-Software Co-Design"
-      ]
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
+    "智能计算系统",
+    "高性能计算",
+    "分布式系统"
   ]
 }
